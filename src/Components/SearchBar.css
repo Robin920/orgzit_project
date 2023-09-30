@@ -1,0 +1,40 @@
+.searchBox{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    padding: 20px;
+    width: 50vw;
+    height: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+.bodyy{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% !important;
+}
+
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto !important;
+}
+
+.mobi:hover{
+    background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
